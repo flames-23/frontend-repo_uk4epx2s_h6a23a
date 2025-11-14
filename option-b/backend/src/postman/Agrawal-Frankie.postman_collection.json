@@ -1,0 +1,12 @@
+{
+  "info": {
+    "name": "Agrawal Frankie API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {"name": "Health", "request": {"method": "GET", "url": "{{baseUrl}}/health"}},
+    {"name": "Register", "request": {"method": "POST", "url": "{{baseUrl}}/api/auth/register", "body": {"mode": "raw", "raw": "{\n  \"name\": \"Owner\",\n  \"email\": \"owner@example.com\",\n  \"password\": \"secret\"\n}"}}},
+    {"name": "Login", "request": {"method": "POST", "url": "{{baseUrl}}/api/auth/login", "body": {"mode": "raw", "raw": "{\n  \"email\": \"owner@example.com\",\n  \"password\": \"secret\"\n}"}}}
+  ],
+  "variable": [{"key": "baseUrl", "value": "http://localhost:4000"}]
+}

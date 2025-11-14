@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Agrawal Frankie Food App",
+    "slug": "agrawal-frankie",
+    "scheme": "agrawalfrankie",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": { "image": "./assets/splash.png", "resizeMode": "contain", "backgroundColor": "#0b1220" },
+    "ios": { "supportsTablet": true },
+    "android": { "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#0b1220" }},
+    "web": { "bundler": "metro", "favicon": "./assets/favicon.png" }
+  }
+}
